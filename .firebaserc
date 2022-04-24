@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "journal-7b188",
+    "payments": "journal-7b188"
+  },
+  "targets": {}
+}

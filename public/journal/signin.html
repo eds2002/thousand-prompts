@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+      name="viewport"
+      content="width=device-width; initial-scale=1.0; user-scalable=no; viewport-fit=cover"
+      />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <!-- possible content values: default, black or black-translucent -->
+      <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent"
+      />
+      <link rel="manifest" href="/journal.webmanifest" />
+      <link rel="stylesheet" href="/style/style.css" />
+      <link rel="apple-touch-icon" href="/icons/apple-icon-180.png">
+    
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2048-2732.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2732-2048.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1668-2388.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2388-1668.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1536-2048.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2048-1536.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1668-2224.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2224-1668.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1620-2160.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2160-1620.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1284-2778.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2778-1284.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1170-2532.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2532-1170.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1125-2436.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2436-1125.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1242-2688.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2688-1242.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-828-1792.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1792-828.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1242-2208.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2208-1242.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-750-1334.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      
+      <link rel="icon" type="image/x-icon" href ="/icons/favicon.ico">
+      <meta name="theme-color" content="#fffffe">
+      <script
+        src="https://kit.fontawesome.com/0995f9dee8.js"
+        crossorigin="anonymous"
+      ></script>
+      <style>
+        html {
+            height  : 100vh;
+            overflow: hidden;
+            position: relative;
+            background:var(--background-color);
+        }
+        .forgot-password-confirmation{
+          position:fixed;
+          top:0;
+          left:0;
+          width:100vw;
+          height:100vh;
+          background:rgba(0, 0, 0, 0.896);
+          z-index:999999999;
+          display:flex;
+          justify-content:center;
+          align-items:Center;
+          transform:scale(0)
+        }
+
+        .forgot-password-confirmation.active{
+          transform:scale(1)
+        }
+
+        .forgot-password-confirmation .wrapper{
+          width:400px;
+          height:250px;
+          background:var(--background-color-secondary);
+          border-radius:25px;
+          padding:25px;
+          text-align:center;
+          position:relative;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          flex-direction:column;
+        }
+
+        .forgot-password-confirmation .wrapper h1{
+          color:var(--headline-color);
+          text-align:center;          
+        }
+
+        .forgot-password-confirmation .wrapper p{
+          font-size:0.905rem;
+          margin:10px 0px;
+          color:var(--paragraph-color);
+          opacity:50%;
+        }
+
+        .forgot-password-confirmation .wrapper .button-wrapper{
+          width:100%;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          height:10px;
+        }
+
+        .forgot-password-confirmation .wrapper .confirm-btn{
+          position:absolute;
+          bottom:15%;
+          width:30%;
+          padding:10px 25px;
+          border-radius:8px;
+          outline:none;
+          border:1px solid var(--primary-button);
+          background:none;
+          color:var(--primary-button-txt);
+          cursor:pointer;
+          transition: background 0.3s ease;
+        }
+        .forgot-password-confirmation .wrapper .confirm-btn:hover{
+          background:var(--primary-button)
+        }
+
+
+        .forgot-password-section{
+          position:fixed;
+          top:0;
+          left:0;
+          width:100vw;
+          height:100vh;
+          background:rgba(0, 0, 0, 0.896);
+          z-index:9999;
+          display:flex;
+          transform:scale(0);
+          justify-content:center;
+          align-items:Center;
+        }
+        .forgot-password-section.active{
+          transform:scale(1);
+        }
+
+        .forgot-password-section .wrapper{
+          width:400px;
+          height:250px;
+          background:var(--background-color-secondary);
+          border-radius:25px;
+          padding:25px;
+          text-align:center;
+        }
+
+        .forgot-password-section .wrapper h1{
+          font-size:1.8rem;
+          color:var(--headline-color);
+        }
+
+        .forgot-password-section .wrapper p{
+          font-size:0.905rem;
+          margin:10px 0px;
+          color:var(--paragraph-color);
+          opacity:50%;
+          position:absolute;
+          top:5%;
+        }
+
+        .border{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          flex-direction: column;
+          height:170px;
+          position:relative;
+        }
+        .email-input{
+          width:100%;
+          border-radius:6px;
+          padding:10px 20px;
+          color:var(--headline-color);
+          outline:none;
+          background:none;
+          border:1px solid var(--primary-button);
+        }
+
+        .reset-btn{
+          position:absolute;
+          bottom:0%;
+          width:50%;
+          padding:10px 25px;
+          border-radius:8px;
+          outline:none;
+          border:1px solid var(--primary-button);
+          background:none;
+          color:var(--primary-button-txt);
+          cursor:pointer;
+          transition: background 0.3s ease;
+        }
+        .reset-btn:hover{
+          background:var(--primary-button)
+        }
+
+
+        #reset-email[data-error]{
+          border:1px solid red;
+          background: 0 0;
+          position: relative;
+        }
+
+        .border[data-error] #reset-email::after{
+          content:attr(data-error);
+          font-size: 0.605rem;
+          font-weight: var(--light-weight);
+          color: red;
+        }
+
+        .email-input[data-error]::after{
+          content:attr(data-error);
+          font-size: 0.605rem;
+          font-weight: var(--light-weight);
+          color: red;
+        }
+
+
+      </style>
+    <title>Login - Thousand Prompts</title>
+  </head>
+  <body id="signIn" style = "background:var(--background-color);overflow:none;height:100vh;position:fixed;top:0;left:0;">
+    <header class="home-header" style = "height:10vh;">
+      <h1 class="logo-text" style = "cursor:pointer;width:100%;text-align:center;color: var(--headline-color);font-size:1rem;margin-top:3rem;" onclick = "takeHome()">thousandprompts</h1>
+    </header>
+    <section class="signIn-Section" style = "overflow:hidden;">
+      <article class="login-container">
+        <div class="login-text-wrapper">
+          <h1 class="login-header">Sign into your account</h1>
+          <p class="login-subheading">Hmmm, what will you write about today?</p>
+        </div>
+        <div class="login-signup-container">
+          <div class="authentication-choices">
+            <div class="login-form">
+              <form
+                class="user-login-form"
+                id="sign-up-form"
+                name="sign-up-form"
+              >
+                <div class="input-container" id="input-container-username">
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    class="input"
+                    placeholder="email address"
+                  />
+                </div>
+                <div class="input-container" id="input-container-password">
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="password"
+                    autocomplete="new-password"
+                  />
+                </div>
+                <div class="submit-btn-wrapper">
+                  <button id="submit-btn">Let's start writing.</button>
+                  <div class="forgot-password">
+                    <a href="#" class = "forgot-pass">Forgot Password?</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="middle-divider">
+              <span class="divider-line"></span>
+              <div class="divider-text">or</div>
+              <span class="divider-line"></span>
+            </div>
+            <div class="signup-forms">
+              <div class="google-signIn">
+                <i class="fab fa-google"></i>Sign in with Google
+              </div>
+            </div>
+          </div>
+          <div class="signup-text-wrapper">
+            <a href="/journal/signup.html" class="sign-up"
+              >Don't have an account?
+              <span class="sign-up-color-offset">Sign up.</span></a
+            >
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class = "forgot-password-confirmation">
+      <div class="wrapper">
+        <h1>Great,</h1>
+        <p>Check your inbox for an email from us!</p>
+        <div class="button-wrapper">
+          <button class = "confirm-btn">Okay</button>
+        </div>
+      </div>
+    </section>
+    <section class = "forgot-password-section">
+        <div class="wrapper">
+          <div class="text-wrapper">
+            <h1>Forgot password?</h1>
+            <div class="border">
+              <p>Don't worry, let's reset that for you real quick!</p>
+              <input type="text" name = "email" class = "email-input" placeholder="Email Address" id = "reset-email">
+              <button class = "reset-btn">Reset my password</button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- <section class="loading-section hidden" id="loading-screen">
+      <div class="loading-container">
+        <h1>Thousand Prompts</h1>
+      </div>
+    </section> -->
+    <script type="module" src="/dist/bundle.js"></script>
+    <script>
+      function takeHome(){
+        window.location.href = "/journal/journalHome.html"
+      }
+
+      let forgotPassSection = document.querySelector(".forgot-password-section")
+      forgotPassSection.onclick = (e) =>{
+        if(e.target.tagName === "SECTION"){
+          forgotPassSection.classList.remove("active")
+          return
+        }
+      }
+
+
+      let forgotPass = document.querySelector(".forgot-pass")
+      forgotPass.onclick = (e) =>{
+        let resetModal = document.querySelector(".forgot-password-section")
+        resetModal.classList.add("active")
+      }
+
+      let okayBtn = document.querySelector(".confirm-btn")
+      okayBtn.onclick = () =>{
+        let confirmBtn = document.querySelector(".forgot-password-confirmation")
+        confirmBtn.classList.remove("active")
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width; initial-scale=1.0; user-scalable=no; viewport-fit=cover"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- possible content values: default, black or black-translucent -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="manifest" href="/journal.webmanifest" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="apple-touch-icon" href="/icons/apple-icon-180.png">
+    
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2048-2732.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2732-2048.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1668-2388.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2388-1668.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1536-2048.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2048-1536.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1668-2224.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2224-1668.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1620-2160.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2160-1620.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1284-2778.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2778-1284.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1170-2532.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2532-1170.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1125-2436.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2436-1125.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1242-2688.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2688-1242.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-828-1792.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1792-828.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1242-2208.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-2208-1242.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-750-1334.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="/icons/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+
+    
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+    <meta name="theme-color" content="#fffffe">
+    <script
+      src="https://kit.fontawesome.com/0995f9dee8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home - Thousand Prompts</title>
+    <style>
+
+      html,
+      body{
+        overflow: hidden;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        height: 100vh;
+        width:100vw;
+      }
+
+      .journal-section-text-wrapper {
+        position: absolute;
+        top: 15vh;
+        width: 100%;
+        height: auto;
+        font-size: 2.05rem;
+        text-align: center;
+      }
+      .prompt-selector {
+        width: 100%;
+        height: 48%;
+        font-size: 1.205rem;
+        text-align: center;
+        position: relative;
+        top: 10vh;
+        overflow-y: auto;
+        scroll-snap-type: Y mandatory;
+        font-weight: bolder;
+        /* background:green; */
+      }
+
+      /* .prompt-view-frame{
+        position:absolute;
+        width:100%;
+        background:rgba(0, 247, 247, 0.269);
+        top:48%;
+        left:0;
+        right:0;
+        bottom:51%;
+        pointer-events: none; 
+      }  */
+
+      .prompt-selector ul {
+        list-style-type: none;
+        width: 100%;
+        position: relative;
+        top: 100px;
+        margin: 0 auto;
+        scroll-snap-type: Y proximity;
+      }
+      .prompt-selector .java-script-li li {
+        scroll-snap-align: start;
+        text-align: center;
+        opacity: 15%;
+        height: 180px;
+        width:80%;
+        max-width:1023px;
+        padding:0px 15px;
+        margin:0 auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transition: opacity 0.2s ease, translate 0.2s ease, filter 0.2s ease;
+        user-select: none;
+        filter: blur(2.3px);
+        /* background:red; */
+      }
+
+      .prompt-selector .java-script-li li.active {
+        filter: blur(0px);
+        opacity: 100%;
+      }
+      /* 
+      .prompt-selector li:nth-child(1){
+        padding:66.6px 0px;
+      } */
+
+      /* .prompt-selector li:not(:nth-child(1),:nth-last-child(1)){
+        margin:50px 0px;
+      }*/
+
+      .list-hide {
+        opacity: 0%;
+      }
+
+      .start-writing-btn-wrapper {
+        position:relative;
+        bottom:-18vh; /*-18vh for mobile web app*/
+        background: var(--primary-button);
+        color: var(--on-primary);
+        padding: 10px 100px;
+        border-radius: 8px;
+        border-bottom: 3px solid black;
+        cursor: pointer;
+        user-select: none;
+        transform: translateY(0);
+        transition: filter 0.2s ease;
+        cursor: pointer;
+      }
+      .start-writing-btn-wrapper:hover {
+        filter: brightness(1.1);
+      }
+
+      .start-writing-btn-wrapper:active {
+        margin: 1.5px 0px;
+        border-bottom: 0px;
+        transform: translateY(3px);
+      }
+
+      /* NEW SECTION - get current moods section  */
+      /* NEW SECTION - get current moods section  */
+      /* NEW SECTION - get current moods section  */
+      .get-current-mood-section {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background: var(--background-color);
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(200%);
+        transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+
+      .get-current-mood-section.active {
+        transform: translateY(0%);
+      }
+
+      .get-current-mood-section .text-wrapper {
+        margin: 25px 0px;
+        font-size: 1.805rem;
+        text-align: center;
+      }
+
+      .emotion-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        opacity: 100%;
+        transition: opacity 0.2s ease,color 0.2 ease;
+        filter:grayscale(1);
+      }
+
+
+      .emotion-container:hover {
+        opacity:100%;
+        color:var(--primary-button);
+        filter:grayscale(0.5);
+      }
+
+      .emotion-container.active {
+        opacity:100%;
+        filter:grayscale(0);
+        color:var(--primary-button);
+      }
+
+      .emotion-container i {
+        font-size: 2.5rem;
+        margin: 0px 10px;
+        user-select: none;
+        pointer-events: none;
+      }
+      .emotion-container p {
+        margin: 10px 0px;
+        font-size: 0.805rem;
+      }
+
+      .select-moods-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 8px;
+        border:1px solid var(--stroke);
+        color: var(--primary-button);
+      }
+
+      .distortions-selected-container{
+        height:40px;
+        border-radius:8px;
+        display:flex;
+        align-items:flex-end;
+        justify-content:center;
+        flex-direction:column;
+        scroll-snap-type: mandatory;
+      }
+
+      .distortions-selected-header-text{
+        width:40%;
+        height:25px;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+      }
+
+      .distortions-selected-header-text p{
+        font-size:0.905rem;
+        font-weight:600;
+        background:var(--primary-button);
+        color:var(--primary-button-txt);
+        width:100%;
+        height:100%;
+        text-align:center;
+        cursor:pointer;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        border-radius:8px;
+        transition: filter 0.2s ease;
+      }
+
+      .distortions-selected-header-text p i{
+        margin-bottom:3px;
+      }
+
+      .distortions-selected-header-text p:hover{
+        filter:brightness(1.2)
+      }
+
+      ul.display-user-selected-distortions-container{
+        width:100%;
+        z-index:99999999999;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        list-style-type: none;
+        flex-direction:column;
+      }
+
+
+      .user-selected-list-item{
+        height:50px;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        scroll-snap-align:start;
+      }
+
+      textarea.current-mood-answer {
+        border-radius: 8px;
+        resize: none;
+        width: 100%;
+        height: 15vh;
+        background: none;
+        outline: none;
+        text-align: left;
+        padding: 10px 25px;
+        font-size: 1.155rem;
+        color: var(--text-color);
+        font-family: inherit;
+        background: var(--background-color-secondary);
+        color: var(--paragraph-color);
+        border: none;
+      }
+
+      textarea.current-mood-answer::placeholder {
+        color: var(--text-color);
+        opacity: 50%;
+        font-size: 1.155rem;
+      }
+
+      .current-mood-button-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px 0px;
+      }
+
+      .change-prompt-button {
+        background: var(--primary-button);
+        color: var(--on-primary);
+        padding: 10px 10px;
+        border-radius: 8px;
+        border-bottom: 3px solid black;
+        cursor: pointer;
+        user-select: none;
+        transform: translateY(0);
+        transition: filter 0.2s ease;
+        cursor: pointer;
+        font-size: 0.805rem;
+        font-weight:500;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        color:var(--primary-button-txt);
+      }
+      .change-prompt-button:hover {
+        filter: brightness(1.2);
+      }
+
+      .change-prompt-button:active {
+        margin: 1.5px 0px;
+        border-bottom: 0px;
+        transform: translateY(3px);
+      }
+
+      .start-writing-button {
+        background: var(--secondary-button);
+        color: var(--secondary-button-txt);
+        padding: 10px 80px;
+        border-radius: 8px;
+        border-bottom: 3px solid black;
+        cursor: pointer;
+        user-select: none;
+        transform: translateY(0);
+        transition: filter 0.2s ease;
+        cursor: pointer;
+        font-size: 0.805rem;
+        font-weight:500;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        color:var(--primary-button-txt);
+      }
+
+      .start-writing-button:hover {
+        filter: brightness(1.2);
+      }
+
+      .start-writing-button:active {
+        margin: 1.5px 0px;
+        border-bottom: 0px;
+        transform: translateY(3px);
+      }
+
+      .distortions-modal{ 
+        position:fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        width:100vw;
+        height:100vh;
+        display:none;
+        background:rgba(0, 0, 0, 0.800);
+      }
+      .distortions-modal.active{
+        position:fixed;
+        left:0;
+        top:0;
+        z-index:999999999999999;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+
+
+      .distortions-list {
+        position:relative;
+        height: 70vh;
+        background:var(--background-color);
+        min-width:300px;
+        max-width:400px;
+        scroll-snap-type: Y mandatory;
+        overflow: scroll;
+        transform-origin: center;
+        opacity: 100%;
+        transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+        color:var(--text-color);
+        width:90%;
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        justify-content:flex-start;
+        border-radius:18px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+      .distortions-list.active {
+        transform: scale(1);
+        border-radius:8px;
+      }
+
+      .distortions-list .text-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+      }
+
+      .select-distortion {
+        background: var(--background-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+      }
+
+      .select-distortion ul {
+        list-style-type: none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        z-index: 9999999999;
+        border-radius:8px;
+        max-width:500px;
+        min-width:300px;
+      }
+      .select-distortion li {
+        font-size: 0.905rem;
+        text-align: center;
+        margin:10px 0px;
+        max-width:500px;
+        min-width:300px;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+      }
+
+      .distortion-option:hover{
+        background-color:rgba(0, 0, 0, 0.082);
+      }
+
+    
+      .search-distortion {
+        cursor: default;
+        background: var(--background-color);
+      }
+
+      .search-for-distortion {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:5vh;
+        max-width:500px;
+        min-width:300px;
+      }
+
+      input.search-distortion {
+        width: 100%;
+        background: var(--background-color);
+        padding: 10px 25px;
+        outline: none;
+        border: 2px solid var(--stroke);
+        border-radius: 500px;
+        font-size: 0.805rem;
+        color: var(--paragraph-color);
+        cursor:text;
+      }
+
+      input.search-distoration:placeholder-shown {
+        font-size: 0.805rem;
+        color: var(--paragraph-color);
+      }
+
+
+      .scroll-to-find-distortion {
+        text-align: center;
+        padding-top: 50px;
+        width: 100%;
+      }
+
+      .distortation-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 15vh;
+        scroll-snap-align: start;
+        cursor: pointer;
+      }
+
+      .distortion-wrapper-icon-and-text{
+        width:100%;
+        height:15vh;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+
+      }
+
+      .distortion-wrapper-icon-and-text.active{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        background-color:rgba(100, 100, 100, 0.144);
+      }
+
+
+      .distortation-container .distortion-name {
+        font-weight: bold;
+        padding:0px 20px;
+        pointer-events: none;
+        color:var(--primary-button)
+      }
+
+      .distortation-container .distortion-example {
+        width: 50%;
+        padding:0px 20px;
+        font-size: 0.805rem;
+        line-height:1.5;
+        text-align: left;
+        pointer-events: none;
+        color:var(--paragraph-color)
+      }
+
+      .distortation-container .distortion-example h1{
+        font-size:1rem;
+        color:var(--headline-color)
+      }
+
+
+      .distortion-name-p{
+        font-size:3rem;
+        width:100px;
+      }
+
+      /* NEW SECTION : USER WRITTEN RESPONSE TO PROMPT */
+      /* NEW SECTION : USER WRITTEN RESPONSE TO PROMPT */
+      /* NEW SECTION : USER WRITTEN RESPONSE TO PROMPT */
+
+      section.user-response-to-prompt {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background: var(--background-color);
+        left: 0;
+        top: 0;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateY(200%);
+        transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+
+      section.user-response-to-prompt.active {
+        transform: translateY(0%);
+      }
+
+      div.container{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        width:90%;
+        max-width:450px;
+      }
+
+      section.user-response-to-prompt .text-wrapper-header {
+        color: var(--text-color);
+        opacity: 25%;
+        margin: 15px 0px;
+        width: 80%;
+        max-width:450px;
+        font-size: clamp(0.605rem, 3vw, 0.805rem);
+      }
+      section.user-response-to-prompt .text-wrapper-prompt {
+        font-size: clamp(1rem, 1.4vw, 2rem);
+        font-weight: bold;
+        width: 80%;
+        max-width:450px;
+      }
+
+      textarea.user-response-to-prompt {
+        margin: 15px 0px 0px 0px;
+        border-radius: 8px;
+        resize: none;
+        width: 80%;
+        height: 40vh;
+        background: none;
+        outline: none;
+        text-align: left;
+        padding: 10px 25px;
+        font-size: 1.155rem;
+        color: var(--paragraph-color);
+        font-family: inherit;
+        background: var(--background-color-secondary);
+        border: none;
+        max-width:450px;
+        text-align: left;
+      }
+
+      #add-written-prompt {
+        background: var(--primary-button);
+        color: var(--primary-button-txt);
+        padding: 10px 80px;
+        border-radius: 8px;
+        border: none;
+        border-bottom: 3px solid black;
+        cursor: pointer;
+        user-select: none;
+        transform: translateY(0);
+        transition: filter 0.2s ease;
+        cursor: pointer;
+        font-size: 0.905rem;
+        max-width:450px;
+        margin: 10px 0px;
+        width:80%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+      }
+
+      #add-written-prompt:hover {
+        filter: brightness(1.2);
+      }
+
+      #add-written-prompt:active {
+        margin: 11.5px 0px;
+        border-bottom: 0px;
+        transform: translateY(3px);
+      }
+
+      /* NEW SECTION :: LAST SECTION : USER FEELING AFTER WRITING */
+      /* NEW SECTION :: LAST SECTION : USER FEELING AFTER WRITING */
+      /* NEW SECTION :: LAST SECTION : USER FEELING AFTER WRITING */
+      .user-after-feeling {
+        width: 100vw;
+        height: 100vh;
+        padding: 0 15vw;
+        position: absolute;
+        background: var(--background-color);
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(200%);
+        transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+        flex-direction: column;
+        gap: 50px;
+      }
+
+      .user-after-feeling.active {
+        transform: translateY(0);
+      }
+
+      .prior-mood-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80vw;
+      }
+
+      .prior-mood-container .text-wrapper {
+        margin: 5px 0px;
+        font-size: 1.305rem;
+        margin-right: auto;
+      }
+
+      .prior-mood-container .user-prior-mood-response {
+        width: 100%;
+        height: 100px;
+        margin: 5px 0px;
+        border:2px solid var(--stroke);
+        color:var(--paragraph-color);
+        border-radius: 8px;
+        padding: 10px 25px;
+        overflow: scroll;
+      }
+
+      .new-mood-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80vw;
+      }
+
+      .new-mood-container .text-wrapper {
+        font-size: 1.305rem;
+      }
+
+      textarea.new-mood-response-textarea {
+        width: 100%;
+        height: 200px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        resize: none;
+        outline: none;
+        text-align: left;
+        padding: 10px 25px;
+        font-size: 1.155rem;
+        color: var(--paragraph-color);
+        font-family: inherit;
+        background: var(--background-color-secondary);
+        border: none;
+        max-width: 100%;
+        text-align: left;
+      }
+
+      #finishJournal{
+        background: var(--primary-button);
+        color: var(--primary-button-txt);
+        padding: 10px 80px;
+        border-radius: 8px;
+        border: none;
+        border-bottom: 3px solid black;
+        cursor: pointer;
+        user-select: none;
+        transform: translateY(0);
+        transition: filter 0.2s ease;
+        cursor: pointer;
+        font-size: 0.905rem;
+        max-width:450px;
+        margin: 10px 0px;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+      }
+
+      #finishJournal:hover{
+        filter:brightness(1.2)
+      }
+
+      #finishJournal:active {
+        margin: 11.5px 0px;
+        border-bottom: 0px;
+        transform: translateY(3px);
+      }
+
+
+      @media only screen and (min-width: 700px) {
+        .new-mood-container {
+          width: 40vw;
+        }
+        .prior-mood-container {
+          width: 40vw;
+        }
+      }
+
+      .loading-section{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100vw;
+        height:100vh;
+        background:var(--background-color);
+        color:var(--headline-color);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-weight:bolder;
+        font-size:1.02rem;
+      }
+
+      .loading-section.hidden{
+        display:none;
+      }
+
+      .loading-container{
+        animation: loading-bounce 2s ease infinite; 
+        transform:translateY(0px);
+      }
+
+      @keyframes loading-bounce{
+        0%{
+          transform:translateY(0px);
+          opacity:25%;
+        }
+        50%{
+          transform:translateY(-10px);
+          opacity:100%;
+        }
+        100%{
+          transform:translateY(0px);
+          opacity:25%;
+        }
+
+      }
+
+      div.reentries-created-container{
+        position:absolute;
+        background:var(--background-color-secondary);
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        transform:translateY(100%);
+        transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+        overflow: scroll;
+        z-index:999999999999999999999999999999999999;
+      }
+
+      div.reentries-created-container.active{
+        transform:translateY(0%)
+      }
+
+      .reentries-button-close{
+        background:var(--primary-button);
+        color:var(--secondary-button-txt);
+        width:80%;
+        margin-top:40px;
+        padding:4px 15px;
+        border-radius:5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+
+      .reentries-button-close:hover{
+        filter:brightness(1.2);
+      }
+
+      .reentries-button{
+        background:var(--secondary-button);
+        color:var(--secondary-button-txt);
+        width:80%;
+        margin-top:10px;
+        padding:4px 15px;
+        border-radius:5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+
+      .reentries-button:hover{
+        filter:brightness(1.2);
+      }
+
+      .reentries-button-add{
+        background:rgb(74, 132, 74);
+        color:var(--secondary-button-txt);
+        width:80%;
+        margin-top:10px;
+        padding:4px 15px;
+        margin-bottom:10px;
+        border-radius:5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+
+      .reentries-button-add:hover{
+        filter:brightness(1.2)
+      }
+
+      .js-add-reentries{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+      }
+
+
+      /* Reset page styiling */
+
+      .reset-warning.hidden{
+        display:none;
+      }
+
+      .reset-warning{
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:rgba(0, 0, 0, 0.8);
+        z-index:999999999999999999999999999
+      }
+
+      .reset-container{
+        min-width:400px;
+        max-width:60%;
+        height:30%;
+        background:var(--background-color);
+        color:var(--headline-color);
+        padding:25px 0px;
+        border-radius:20px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        animation:reveal-page-transform-scale 0.2s cubic-bezier(0, 0.55, 0.45, 1) forwards;
+      }
+
+      .reset-container i{
+        color:rgb(255, 103, 103);
+        font-size:2rem;
+      }
+
+      .reset-container h1{
+        font-size:1.05rem;
+        width:50%;
+        text-align:center;
+        margin:25px 0px;
+      }
+
+      .reset-container button{
+        padding:10px 25px;
+        margin:0px 0px 25px 0px;
+        border-radius:8px;
+        background-color:var(--secondary-button);
+        border:1px solid var(--secondary-button);
+        color:var(--secondary-button-txt);
+        font-size:0.905rem;
+        transition:background 0.2s ease;
+      }
+
+      .reset-container button:hover{
+        filter:brightness(1.2);
+        background:var(--background-color);
+        border:1px solid var(--secondary-button);
+        color:var(--headline-color);
+        cursor:pointer;
+      }
+
+      .reset-container button:active{
+        filter:brightness(0.8)
+      }
+
+      /*  */
+
+      .mood-prior-display{
+        font-weight:bolder;
+        margin:10px 0px 0px 0px;
+        opacity:50%;
+        font-size:1.4rem;
+      }
+      .prompt-and-answer-container,.mood-prior-container,.after-emotion-container{
+        background:var(--background-color-tertiary);
+        width:100%;
+        height:50%;
+        border-radius:8px;
+        margin:5px 0px;
+        overflow:scroll;
+        scroll-behavior: none;
+        cursor:pointer;
+      }
+
+      .entry-text-box h1{
+        padding:10px 0px 10px 0px;
+        margin:10px 25px;
+        font-size:1rem;
+        border-bottom:0.5px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .entry-text-box p{
+        margin:0px 25px;
+        line-height: 1.5;
+      }
+
+      .after-emotion-container p{
+        padding:20px 0px 0px 20px;
+      }
+
+      .hide-item{
+        display:none;
+      }
+
+      .filters-container{
+        background:var(--background-color);
+      }
+
+      .filter-box{
+        padding:5px 10px;
+        border-radius:500px;
+        cursor:pointer;
+        margin-top:20px;
+      }
+
+      .filter-feel-good{
+        background:rgb(76, 156, 76);
+        color:white;
+        filter:drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.1));
+      }
+
+      .filter-feel-good.disabled{
+        filter:grayscale(1)
+      }
+
+      .filter-thought-provoking{
+        background:rgb(95, 157, 199);
+        color:white;
+        filter:drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.1));
+      }
+
+      .filter-thought-provoking.disabled{
+        filter:grayscale(1)
+      }
+
+      .filter-gratitude{
+        background:rgb(202, 136, 14);
+        color:white;
+        filter:drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.1));
+      }
+
+      .filter-gratitude.disabled{
+        filter:grayscale(1)
+      }
+
+      .char-limit-bar{
+        width:30px;
+        height:5px;
+        background:var(--background-color-secondary);
+        border-radius:500px;
+        position:relative;
+        transition:transform 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+        transform-origin:right;
+      }
+      .char-limit-bar-overlay{
+        content:'';
+        position:absolute;
+        width:0px;
+        height:5px;
+        border-radius:500px;
+        left:0;
+        background:rgb(86, 161, 86);
+        transform-origin:right;
+        transition:background 0.2s cubic-bezier(0.83, 0, 0.17, 1);
+      }
+
+      .char-limit-bar-overlay.limit-reach{
+        transition:background 0.2s cubic-bezier(0.83, 0, 0.17, 1);
+        background:red;
+      }
+
+      .char-limit-bar-journal{
+        width:30px;
+        height:5px;
+        background:var(--background-color-secondary);
+        border-radius:500px;
+        position:relative;
+        transition:transform 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+        transform-origin:right;
+      }
+
+      .char-limit-bar-overlay-journal{
+        content:'';
+        position:absolute;
+        width:0px;
+        height:5px;
+        border-radius:500px;
+        left:0;
+        background:rgb(86, 161, 86);
+        transform-origin:right;
+        transition:background 0.2s cubic-bezier(0.83, 0, 0.17, 1);
+      }
+
+      .char-limit-bar-overlay-journal.limit-reach{
+        transition:background 0.2s cubic-bezier(0.83, 0, 0.17, 1);
+        background:red;
+      }
+
+      .char-limit-bar-moodafter{
+        width:30px;
+        height:5px;
+        background:var(--background-color-secondary);
+        border-radius:500px;
+        position:relative;
+        transition:transform 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+        transform-origin:right;
+      }
+
+      .char-limit-bar-overlay-moodafter{
+        content:'';
+        position:absolute;
+        width:0px;
+        height:5px;
+        border-radius:500px;
+        left:0;
+        background:rgb(86, 161, 86);
+        transform-origin:right;
+        transition:background 0.2s cubic-bezier(0.83, 0, 0.17, 1);
+      }
+
+      .char-limit-bar-overlay-moodafter.limit-reach{
+        transition:background 0.2s cubic-bezier(0.83, 0, 0.17, 1);
+        background:red;
+      }
+
+      .download-app{
+        position:fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        width:100vw;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background: rgba(0, 0, 0, 0.84);
+        z-index:999999999999999999999999;
+        transform:scale(0);
+      }
+      .download-app.active{
+        transform:scale(1);
+      }
+
+      .download-app .wrapper{
+        width:400px;
+        background:var(--background-color-secondary);
+        border-radius:15px;
+        padding:25px;
+      }
+
+      .download-app .wrapper-ios{
+        width:400px;
+        background:var(--background-color-secondary);
+        border-radius:15px;
+        padding:25px;
+        position:absolute;
+        transform:scale(0);
+      }
+
+      .download-app .wrapper-ios h1{
+        color:var(--headline-color)
+      }
+
+      .download-app .wrapper-ios p{
+        color:var(--paragraph-color);
+        margin:15px 0px;
+        line-height: 1.4;
+        font-size:0.955rem;
+      }
+
+      .download-app .wrapper h1{
+        color:var(--headline-color)
+      }
+      .download-app .wrapper p{
+        color:var(--paragraph-color);
+        margin:15px 0px;
+        line-height: 1.4;
+        font-size:0.955rem;
+        opacity:50%;
+      }
+
+      .download-app .wrapper .btn-wrapper{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        width:100%;
+        margin-top:25px;
+      }
+
+      .download-app .wrapper .btn-wrapper .download-now-btn{
+        padding:10px 0px;
+        border:1px solid var(--secondary-button);
+        color:var(--secondary-button-txt);
+        background:var(--secondary-button);
+        border-radius:8px;
+        width:40%;
+        transition:filter 0.2s ease;
+        margin-bottom:5px;
+      }
+      .download-app .wrapper .btn-wrapper .download-now-btn:hover{
+        filter:brightness(1.2)
+      }
+      .download-app .wrapper .btn-wrapper .user-no-download{
+        border:none;
+        padding:4px 0px;
+        border-bottom:1px solid var(--primary-button);
+        color:var(--primary-button-txt);
+        background:none;
+        width:32%;
+        transition:filter 0.2s ease;
+        margin-bottom:5px;
+        outline:0;
+        transition:padding 0.2s ease;
+      }
+      .download-app .wrapper .btn-wrapper .user-no-download:hover{
+        padding:1px 0px;
+      }
+
+      .bold{
+        font-weight:bold;
+        color:var(--secondary-button);
+        opacity:200%;
+      }
+      .downloaded-btn-wrapper{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+      .downloaded{
+        padding:10px 0px;
+        border:1px solid var(--secondary-button);
+        color:var(--secondary-button-txt);
+        background:var(--secondary-button);
+        border-radius:8px;
+        width:40%;
+        transition:filter 0.2s ease;
+        margin-top:5px;
+      }
+
+      .downloaded:hover{
+        filter:brightness(1.2)
+      }
+
+      .wrapper-ios.active{
+        transform:scale(1);
+      }
+
+
+    </style>
+  </head>
+  <body class="theme-dark" id="homePage">
+    <section class="home-journal-app">
+      <header class="home-header">
+        <h1 class="logo-text" style = "cursor:pointer;"onClick = "urlHome()">thousandprompts</h1>
+        <nav class="navigation-system">
+          <ul>
+            <li class="item-settings" id="settingsPage">
+              <i class="fas fa-cog"></i
+              ><span class="li-hidden-mobile">Settings</span>
+            </li>
+            <li class="item-sign-in" id="signInIcon">
+              <i class="fas fa-user"></i
+              ><span class="user-sign-in-out" id="signInOutBtn"></span>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <article class="home-main-content">
+        <section class="home-journal-entries-options">
+          <div class="home-text-wrapper animation">
+            <h1 class="home-text" id="homeText">Loading, please wait! :0</h1>
+          </div>
+          <div class="prompts-entries-container">
+            <div class="journal-section-container">
+              <div class="journal-section">
+                <i class="fas fa-pen"></i>
+                Journal
+              </div>
+            </div>
+            <div class="entries-section">
+              <i class="fas fa-book-open"></i>Entries
+            </div>
+          </div>
+        </section>
+
+        <!-- First step into writing journal | Part 1, select a prompt -->
+        <section class="write-journal">
+          <div class="journal-section-text-wrapper">
+            <h1 class="journal-main-text">Pick a prompt</h1>
+            <div class="filters-container" style = "font-size:0.805rem;display:flex;
+            justify-content:center;
+            align-items:center;margin-top:5px;gap:30px;">
+              <p class = "filter-box filter-feel-good disabled">Feel Good</p>
+              <p class = "filter-box filter-thought-provoking disabled">Thought Provoking</p>
+              <p class = "filter-box filter-gratitude disabled">Gratitude</p>
+            </div>
+          </div>
+          <div class="prompt-selector">
+            <ul>
+              <li class="list-hide">First</li>
+              <div class="java-script-li" id="list-items-js">
+                <!-- Javascript added list items -->
+              </div>
+              <li class="list-hide" style="margin-top: 50px">Last</li>
+            </ul>
+          </div>
+          <div class="prompt-view-frame"></div>
+          <div class="start-writing-btn-wrapper" id="start-writing-button" style = "display:flex;
+          justify-content:center; align-items:center; color:var(--primary-button-txt)">
+            <i class="fas fa-book-open" style = "font-size:0.805rem;margin:0px 5px;"></i>Let's start writing
+          </div>
+        </section>
+
+        <!-- Part 2 in writing journal | User adds their current mood -->
+        <!-- Part 2 in writing journal | User adds their current mood -->
+        <!-- Part 2 in writing journal | User adds their current mood -->
+        <section class="get-current-mood-section">
+          <div class="text-wrapper">
+            <h1>How are you currently feeling?</h1>
+          </div>
+          <div class="mood-and-response-container">
+            <!-- there will be 5 moods in this container, laid horizontally,  -->
+            <div class="select-moods-container">
+              <div class="emotion-container mood-after" id="mood-awful">
+                <i class="fas fa-sad-cry"></i>
+                <p>Awful</p>
+              </div>
+              <div class="emotion-container mood-after" id="mood-sad">
+                <i class="fas fa-frown"></i>
+                <p>Bad</p>
+              </div>
+              <div class="emotion-container mood-after" id="mood-meh">
+                <i class="fas fa-meh"></i>
+                <p>Meh</p>
+              </div>
+              <div class="emotion-container mood-after" id="mood-good">
+                <i class="fas fa-smile"></i>
+                <p>Good</p>
+              </div>
+              <div class="emotion-container mood-after" id="mood-amazing">
+                <i class="fas fa-laugh-beam"></i>
+                <p>Amazing</p>
+              </div>
+            </div>
+            <div class="distortions-selected-container">
+              <div class="distortions-selected-header-text">
+                <p id = "select-distortions-btn">Select Distortions<i class="fas fa-sort-down"></i></p>
+              </div>
+            </div>
+            <div class="user-answer-to-current-mood">
+              <textarea
+                class="current-mood-answer"
+                name="current-mood-answer"
+                id="current-mood-answer"
+                placeholder="Would you like to rant? "
+                autocomplete="off"
+              ></textarea>
+              <div class="char-limit-bar">
+                <div class="char-limit-bar-overlay"></div>
+              </div>
+            </div>
+            <div class="current-mood-button-wrapper">
+              <div class="change-prompt-button" id="change-prompt-btn">
+                <i class="fas fa-undo-alt"></i>Change prompt
+              </div>
+              <div class="start-writing-button"><i class="fas fa-pen-fancy"></i>Start Writing</div>
+            </div>
+          </div>
+        </section>
+        <!-- Part 3 - User writing their response to the prompt they have chosen -->
+        <!-- Part 3 - User writing their response to the prompt they have chosen -->
+        <!-- Part 3 - User writing their response to the prompt they have chosen -->
+        <section class="user-response-to-prompt">
+          <div class="container">
+            <div class="text-wrapper-header">
+              This is a safe space, feel free to write whatever you feel.
+            </div>
+            <div class="text-wrapper-prompt">
+              <p></p>
+            </div>
+            <textarea
+              class="user-response-to-prompt"
+              id="textarea"
+              name="user-response-to-prompt"
+              id="prompt-response"
+            ></textarea>
+            <div class="char-limit-bar-journal" style = "margin-top:5px; margin-right:73%;">
+              <div class="char-limit-bar-overlay-journal"></div>
+            </div>
+            <button id="add-written-prompt"><i class="fas fa-check-circle"></i>Submit Journal</button>
+          </div>
+        </section>
+
+        <!-- Part 4 : How do you feel after section -->
+        <!-- Part 4 : How do you feel after section -->
+        <!-- Part 4 : How do you feel after section -->
+        <section class="user-after-feeling">
+          <div class="prior-mood-container">
+            <div class="text-wrapper">
+              <h1>Prior response:</h1>
+            </div>
+            <div class="user-prior-mood-response">
+              <p class="user-prior-current-mood-answer"></p>
+            </div>
+          </div>
+          <div class="new-mood-container">
+            <div class="text-wrapper">
+              <h1 class = "mood-after-headline">
+                Challenge this thought. What's another way of thinking about
+                this?
+              </h1>
+            </div>
+            <textarea
+              class="new-mood-response-textarea"
+              name="new-mood-reponse"
+              id="new-mood-reponse"
+            ></textarea>
+            <div class="char-limit-bar-moodafter" style = "margin-top:5px;margin-right:auto;">
+              <div class="char-limit-bar-overlay-moodafter"></div>
+            </div>
+            <button id="finishJournal">Finish journal</button>
+          </div>
+        </section>
+
+        <section class="entries-display hidden">
+          <div class="entries-section-text-wrapper">
+            <p class="no-entries-present">You don't have an entries yet!</p>
+            <div class="add-entry-box" id="add-entries-btn">
+              <p class="add-entry">
+                <i class="fas fa-plus"></i>
+              </p>
+            </div>
+          </div>
+          <div
+            class="entries-collection-container"
+            id="noJournalDisplay"
+          >
+            <div class="entries-collection" id="writtenJournals" style = "margin-top:15px;">
+          </div>
+        </section>
+
+        <!-- USER JOURNAL DISPLAY -->
+        <section class="display-user-journal hidden" >
+          <div class="journal-container-wrapper" >
+            <div class="journal-header-wrapper">
+              <div class="left-side-text-align-wrapper">
+                <p class="date-time-display"><span style = "font-weight:bolder">Date:</span> <span class="javascript-input-textfield">Sunday</span> </p>
+                </h1>
+              </div>
+              <div class="right-side-exit-button">
+                <p>
+                  <i class="fas fa-plus" id="userJournalDisplayExitBtn"></i>
+                </p>
+              </div>
+            </div>
+            <p class="mood-prior-display" style = "margin-top:25px;">Journal</p>
+            <div class="prompt-and-answer-container entry-text-box">
+              <h1 class = ".user-prompt-title-display" id = "prompt-title-display">Prompt Title</h1>
+              <p class = ".user-prompt-answer-display" id = "prompt-answer-display">
+              </p>
+            </div>
+            <p class="mood-prior-display" id = "current-mood-title" style = "margin-top:50px;">Emotion Prior & Response</p>
+            <div class="mood-prior-container entry-text-box" id = "current-mood-container">
+              <h1 id = "modal-current-emotion">Emotion</h1>
+              <p id = "modal-current-emotion-response">Explain current emotion</p>
+            </div>
+            <p class="mood-prior-display" id = "after-mood-title" style = "margin-top:50px;">Response to mood prior</p>
+            <div class="after-emotion-container" id = "after-mood-container">
+              <p id = "modal-after-emotion">Explain emotion after</p>
+            </div>
+            <div class="delete-journal-btn">
+              <button class = "delete-btn" id="deleteJournal">Delete Entry</button>
+            </div>
+          </div>
+        </section>
+      </article>
+    </section>
+
+    <!-- SETTINGS DISPLAY -->
+    <section class="settings hidden" id="settings-page">
+      <article class="settings-display">
+        <div class="settings-text-wrapper">
+          <h1>Settings</h1>
+          <i class="fas fa-times" style = "margin-right:15px;" id="close-button"></i>
+        </div>
+        <div class="settings-container">
+          <div class="setting-item">
+            <div class="text-container">
+              <div class="setting-icon setting-one">
+                <i class="fas fa-handshake "></i>
+              </div>
+              Enable CBT Concept? 
+            </div>
+            <div class="input-switch">
+              <label class = "switch">
+                <input type="checkbox" id = "cbtEnable"checked>
+                <span class = "slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="setting-item">
+            <div class="text-container">
+              <div class="setting-icon setting-two">
+                <i class="fas fa-moon"></i>
+              </div>
+              Enable Dark Mode?
+            </div>
+            <div class="input-switch">
+              <label class = "switch">
+                <input type="checkbox" id = "darkModeEnable" checked>
+                <span class = "slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="reset-prompts">
+            <div class="center-reset-setting">
+              </div>
+              Delete and reset prompts?
+            </div>
+          </div>
+        </div>
+        
+      </article>
+    </section>
+
+    <!-- DISTORTIONS DISPLAY LIST -->
+    <section class = "distortions-modal">
+      <div class="distortions-list">
+        <div class="select-distortion" style="position: relative">
+          <ul id = "distortion-collection-list">
+            <li>
+              <div class="distortation-container search-distortion">
+                <div class="search-for-distortion">
+                  <input
+                    type="text"
+                    class="search-distortion"
+                    placeholder="Search Distortions..."
+                    id = "input-distortion"
+                  />
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class = "distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-bomb"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Catastrophizing</h1>
+                    <p>
+                      "If I fail this test, my carreer will be over!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-yin-yang"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>All-or-Nothing Thinking</h1>
+                    <p>"I'm a total failure."</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-meh-blank"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Emotional Reasoning</h1>
+                    <p>
+                      "I feel so ugly so that must be true because I'm feeling it."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-minus-square"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Magnification of Negatives</h1>
+                    <p>
+                      "I got a 60 on my test, that means I'm going to be a failure all my life."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-search-plus"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Minimization of Positives</h1>
+                    <p>
+                      "Anyone could've done what I've done."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-child"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Jumping to Conclusions</h1>
+                    <p>
+                      "They didn't answer my call, they hate me." <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-diagnoses"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Fortune-telling</h1>
+                    <p>
+                      You have a date but you predict the date will go bad. Making
+                      assumptions before the date even happened.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-brain"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Mind Reading</h1>
+                    <p>
+                      "They didn't pick up the phone, they must hate me!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-user-injured"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Self-Blaming</h1>
+                    <p>
+                      "I'm the reason my daughter has terrible grades."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-user-friends"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Blaming</h1>
+                    <p>
+                      "The only reason I failed is beacuse they distracted me!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-filter"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Filtering out the Positive</h1>
+                    <p>
+                      "I didn't deserve this A+, I just got lucky."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-globe"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Overgeneralizing</h1>
+                    <p>
+                      "They just rejected me, I'm ugly, everyone else will reject me too."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-tag"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Labeling</h1>
+                    <p>
+                      "She didn't say hi to me when I said hi, they must be so rude!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class = "list-item-distortion distortion-option">
+              <div class="distortation-container">
+                <div class="distortion-wrapper-icon-and-text">
+                  <div class="distortion-name">
+                    <p class = "distortion-name-p"><i class="fas fa-comment-dots"></i></p>
+                  </div>
+                  <div class="distortion-example">
+                    <h1>Should / Must Statements</h1>
+                    <p>
+                      "I should lose weight."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </section>
+
+
+    <!-- Loading Page -->
+    <section class ="loading-section" id = "loading-screen">
+      <div class="loading-container">
+        <h1>Thousand Prompts</h1>
+      </div>
+    </section>
+
+    <section class = "reset-warning hidden">
+      <div class="reset-container">
+        <i class="fas fa-exclamation-circle"></i>
+        <h1>Are you sure you want to delete your prompts?</h1>
+        <button class = "delete-prompts-btn">Delete</button>
+      </div>
+    </section>
+
+    <!-- Download the app -->
+    <section class = "download-app">
+      <div class="wrapper">
+        <h1>Hi, we're so happy to have you with us!</h1>
+        <p>Thousand Prompts is mobile friendly, but offers a better user experience through the app!</p>
+        <div class="btn-wrapper">
+          <button class = "download-now-btn">Download Now</button>
+          <button class = "user-no-download">I don't care!</button>
+        </div>
+      </div>
+      <div class="wrapper-ios">
+        <h1>Great! Follow these simple steps.</h1>
+        <p>To install this webapp on your iPhone: tap <span class = "bold">share</span> and then <span class = "bold">Add to HomeScreen</span>.</p>
+        <div class="downloaded-btn-wrapper">
+          <button class = "downloaded">Got it, thanks.</button>
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('/service-worker.js')
+      }
+      if(navigator.onLine){
+        console.log("yes this works || online")
+      }else{
+        console.log("offline")
+      }
+    </script>
+    <script type="module" src="/dist/bundle.js"></script>
+    <script>
+      // Global variables needed
+      let header = document.querySelector("header");
+      // Journal button entries
+      let journalBtn = document.querySelector(".journal-section");
+      let journalModal = document.querySelector(".write-journal");
+      let homeScreen = document.querySelector(".home-journal-entries-options");
+
+      // Entry button declarations
+      let entriesBtn = document.querySelector(".entries-section");
+      let entriesModal = document.querySelector(".entries-display");
+      let homeScreenEntries = document.querySelector(
+        ".home-journal-entries-options"
+      );
+
+      // Sections 
+      let moodAfterSection = document.querySelector(".user-after-feeling");
+      let sectionJournalWrite = document.querySelector(".user-response-to-prompt");
+
+      journalBtn.addEventListener("click", () => {
+        if (journalBtn.classList.contains("unavailable")) {
+          // First remove entry active class
+          entriesBtn.classList.add("unavailable");
+          journalModal.classList.add("active");
+          homeScreen.classList.add("journal-active");
+          let homeScreenText = document
+            .querySelector(".home-text")
+            .classList.add("journal-active");
+          journalModal.classList.add("journal-active");
+          header.classList.add("header-hide");
+
+          // // If user is on current mood page, remove class anyways
+          // let currentMoodActive = document.querySelector(
+          //   ".get-current-mood-section"
+          // );
+          // currentMoodActive.classList.remove("active");
+          // Then add journal active
+          let delayEntriesActiveButton = setTimeout(() => {
+            entriesModal.classList.remove("entries-active");
+            homeScreenEntries.classList.remove("entries-active");
+            let homeScreenText = document
+              .querySelector(".home-text")
+              .classList.remove("entries-active");
+            journalBtn.classList.remove("unavailable");
+          }, 5);
+          removeResponses();
+          return;
+        }
+        if (!journalModal.classList.contains("active")) {
+          // DISBALE ENTRIES BUTTON
+          entriesBtn.classList.add("unavailable");
+          journalModal.classList.add("active");
+          homeScreen.classList.add("journal-active");
+          let homeScreenText = document
+            .querySelector(".home-text")
+            .classList.add("journal-active");
+          journalModal.classList.add("journal-active");
+          header.classList.add("header-hide");
+          removeResponses()
+        } else {
+          journalModal.classList.remove("active");
+          homeScreen.classList.remove("journal-active");
+          let homeScreenText = document
+            .querySelector(".home-text")
+            .classList.remove("journal-active");
+          journalModal.classList.remove("journal-active");
+          //REMOVE CLASSLIST UNAVAILABLE
+          entriesBtn.classList.remove("unavailable");
+          header.classList.remove("header-hide");
+          sectionJournalWrite.classList.remove("active");
+          moodAfterSection.classList.remove("active")
+
+
+          // If user is on current mood page, remove class anyways
+          let currentMoodActive = document.querySelector(
+            ".get-current-mood-section"
+          );
+          currentMoodActive.classList.remove("active");
+          removeResponses()
+        }
+      });
+
+      //   Adding script for entries button click
+
+      entriesBtn.addEventListener("click", () => {
+        if (entriesBtn.classList.contains("unavailable")) {
+          // First remove entry active class
+
+          // Add unavailable class to journal button
+          journalBtn.classList.add("unavailable");
+          // Active to entries page, this allows it to be displayed
+          entriesModal.classList.add("active");
+
+          // Entries active class to journal / entries button container
+          homeScreen.classList.add("entries-active");
+          let homeScreenText = document
+            .querySelector(".home-text")
+            .classList.add("entries-active");
+          entriesModal.classList.add("entries-active");
+
+          // If on currentmood page, remove that class
+          let currentMoodActive = document.querySelector(
+            ".get-current-mood-section"
+          );
+          currentMoodActive.classList.remove("active");
+          // Then add journal active----
+          let delayEntriesActiveButton = setTimeout(() => {
+            journalModal.classList.remove("journal-active");
+            journalModal.classList.remove("active");
+            homeScreenEntries.classList.remove("journal-active");
+            let homeScreenText = document
+              .querySelector(".home-text")
+              .classList.remove("journal-active");
+            entriesBtn.classList.remove("unavailable");
+
+            header.classList.remove("header-hide");
+            sectionJournalWrite.classList.remove("active");
+            moodAfterSection.classList.remove("active")
+
+          }, 10);
+          removeResponses();
+          return;
+        }
+        if (!entriesModal.classList.contains("entries-active")) {
+          // DISABLE JOURNAL BUTTON
+          journalBtn.classList.add("unavailable");
+          entriesModal.classList.add("entries-active");
+          homeScreenEntries.classList.add("entries-active");
+          let homeScreenText = document
+            .querySelector(".home-text")
+            .classList.add("entries-active");
+            removeResponses()
+        } else {
+          // Remove modal active, screen
+          entriesModal.classList.remove("entries-active");
+
+          // Remove journal / section buttons container
+          homeScreenEntries.classList.remove("entries-active");
+          let homeScreenText = document
+            .querySelector(".home-text")
+            .classList.remove("entries-active");
+
+          // Remove unavailable class from journal | Styling
+          journalBtn.classList.remove("unavailable");
+
+          // Remove the hidden header
+          header.classList.remove("header-hide");
+          removeResponses();
+        }
+      });
+
+      // Creating function for navigation
+      let settings = document.querySelector("#settingsPage");
+      let settingsPage = document.querySelector("#settings-page");
+      settings.addEventListener("click", () => {
+        settingsPage.classList.remove("hidden");
+      });
+      // Closing the settings page
+      let close = document.querySelector("#close-button");
+      close.addEventListener("click", () => {
+        settingsPage.classList.add("hidden");
+      });
+
+      // Functioanlity for users if they want to view their prompts
+      let closeButtonUserJournal = document.querySelector(
+        "#userJournalDisplayExitBtn"
+      );
+      closeButtonUserJournal.addEventListener("click", () => {
+        let displayPromptBox = document.querySelector(".display-user-journal");
+        displayPromptBox.classList.add("hidden");
+      });
+
+      // Functionality of users want to add an entry
+      let addEntryBtn = document.querySelector("#add-entries-btn");
+      addEntryBtn.addEventListener("click", () => {
+        // First remove entry active class
+        entriesModal.classList.remove("entries-active");
+        homeScreenEntries.classList.remove("entries-active");
+        let homeScreenText = document
+          .querySelector(".home-text")
+          .classList.remove("entries-active");
+        journalBtn.classList.remove("unavailable");
+        // Then add journal active
+        let delayJournalActive = setTimeout(() => {
+          entriesBtn.classList.add("unavailable");
+          journalModal.classList.add("active");
+          homeScreen.classList.add("journal-active");
+          let homeScreenText = document
+            .querySelector(".home-text")
+            .classList.add("journal-active");
+          journalModal.classList.add("journal-active");
+          header.classList.add("header-hide");
+        }, 10);
+      });
+
+      // Filter distortions list
+
+      let filterInput = document.querySelector(".search-distortion");
+      filterInput.addEventListener("keyup",()=>{
+        let inputValue = document.querySelector("#input-distortion").value.toUpperCase();
+        
+        // Get UL list
+        let ulCollection = document.querySelector("#distortion-collection-list");
+
+        let liCollectionlist = ulCollection.querySelectorAll(".list-item-distortion")
+
+        liCollectionlist.forEach(li =>{
+          let h = li.querySelector(".distortion-example h1")
+          let parentOfh = h.parentElement;
+          let grandParentOfh = parentOfh.parentElement;
+          //Filter user input with list items
+
+          if(h.textContent.toUpperCase().indexOf(inputValue) > -1){
+            li.style.display = ""
+          }else{
+            li.style.display = "none"
+          }
+        })
+
+      })
+
+      // Button - "Selection distortons"
+
+      let selectDistortions = document.querySelector('#select-distortions-btn')
+      selectDistortions.addEventListener("click",()=>{
+        let displayDistortionsList = document.querySelector(".distortions-modal").classList.add("active");
+      })
+
+      // Button - Change Prompt {Go back to prompt page if user changes their mind}
+      let promptButton = document.querySelector("#change-prompt-btn");
+      promptButton.addEventListener("click", () => {
+        let currentMoodActive = document.querySelector(
+          ".get-current-mood-section"
+        );
+        currentMoodActive.classList.remove("active");
+      });
+
+      
+      // Distortions on Click - Add to class active, add distortions to an array
+      let userDistortions = [];
+      
+      let distortionOpts = document.querySelectorAll(".distortion-option")
+      distortionOpts.forEach(opt =>{
+        opt.addEventListener("click",(ele)=>{
+          const parent = ele.target;
+          let distortionName = parent.querySelector(".distortion-example h1").textContent
+          if(parent.classList.contains("active")){
+            parent.classList.remove("active")
+            userDistortions.splice(userDistortions.indexOf(distortionName), 1)
+            return;
+          }
+          parent.classList.add("active")
+          userDistortions.push(distortionName)
+        })
+      })
+      
+
+      
+      // Modal - Distortions {FUNCTIONALITY} close on background touch
+      let sectionModal = document.querySelector(".distortions-modal");
+      sectionModal.addEventListener("click",(element)=>{
+        if(element.target.nodeName === "SECTION"){
+          let displayDistortionsList = document.querySelector(".distortions-modal").classList.remove("active");
+
+          // Add distortions to distortion list 
+          let divReference = document.querySelector(".load-selected-distortions")
+          divReference.innerHTML = "";
+          userDistortions.forEach(item =>{
+            let li = `
+            <li class = "user-selected-list-item">${item}<li>`
+            divReference.innerHTML+=li;
+          })
+        }
+      })
+
+      // Reset prompts setting
+      let resetButton = document.querySelector(".reset-prompts")
+      resetButton.onclick = () =>{
+        let sectionReset = document.querySelector(".reset-warning")
+        document.querySelector(".settings").classList.add("hidden")
+        sectionReset.classList.remove("hidden")
+        sectionReset.onclick=(e) =>{
+          if(e.target.className === "reset-warning"){
+            sectionReset.classList.add("hidden");
+          }
+        }
+      }
+
+      // User clicks on prompt container, expand the view to 100%
+      let entriesViewContainer = document.querySelector(".prompt-and-answer-container")
+      entriesViewContainer.onclick = () =>{
+        if(entriesViewContainer.style.height === '100%'){
+          entriesViewContainer.style.height = '50%';
+          return;
+        }
+        entriesViewContainer.style.height = '100%';
+      }
+
+      let moodPriorHeightInc = document.querySelector(".mood-prior-container");
+      moodPriorHeightInc.onclick = () =>{
+        if(moodPriorHeightInc.style.height === '100%'){
+          moodPriorHeightInc.style.height = '50%';
+          return;
+        }
+        moodPriorHeightInc.style.height = '100%';
+      }
+
+      let afterEmotionHeightInc = document.querySelector(".after-emotion-container");
+      afterEmotionHeightInc.onclick = () =>{
+        if(afterEmotionHeightInc.style.height === '100%'){
+          afterEmotionHeightInc.style.height = '50%';
+          return;
+        }
+        afterEmotionHeightInc.style.height = '100%';
+      }
+
+      // Charcter limits ----
+      let submitCurrentMood = true;
+      let charLimitTextAreaCurrentMood = document.querySelector("#current-mood-answer")
+      charLimitTextAreaCurrentMood.addEventListener("input",()=>{
+        // References
+        let maxCharBarOverlay = document.querySelector(".char-limit-bar-overlay")
+
+        let maxChar = 1000;
+        let overlayWidth = charLimitTextAreaCurrentMood.value.length / maxChar * 30
+        if(maxChar >= charLimitTextAreaCurrentMood.value.length){
+          maxCharBarOverlay.classList.remove("limit-reach")
+          maxCharBarOverlay.style.width = `${overlayWidth}px`
+          submitCurrentMood = true;
+          return;
+        }
+        submitCurrentMood = false;
+        maxCharBarOverlay.classList.add("limit-reach")
+
+      })
+
+      let submitJournal = false;
+      let journalCharLimitTextarea = document.querySelector("#textarea")
+      journalCharLimitTextarea.addEventListener("input",()=>{
+        let maxCharBarOverlay = document.querySelector(".char-limit-bar-overlay-journal")
+        let maxChar = 3000;
+        let overlayWidth = journalCharLimitTextarea.value.length / maxChar * 30
+        if(maxChar >= journalCharLimitTextarea.value.length){
+          maxCharBarOverlay.classList.remove("limit-reach")
+          maxCharBarOverlay.style.width = `${overlayWidth}px`
+          submitJournal = true;
+          return;
+        }
+        submitJournal = false;
+        maxCharBarOverlay.classList.add("limit-reach")
+      })
+
+
+      let submitMoodAfter = true;
+      let moodAfterCharLimitTextarea = document.querySelector(".new-mood-response-textarea")
+      moodAfterCharLimitTextarea.addEventListener("input",()=>{
+        let maxCharBarOverlay = document.querySelector(".char-limit-bar-overlay-moodafter")
+        let maxChar = 1000;
+        let overlayWidth = moodAfterCharLimitTextarea.value.length / maxChar * 30
+        if(maxChar >= moodAfterCharLimitTextarea.value.length){
+          maxCharBarOverlay.classList.remove("limit-reach")
+          maxCharBarOverlay.style.width = `${overlayWidth}px`
+          submitMoodAfter = true;
+          return;
+        }
+        submitMoodAfter = false;
+        maxCharBarOverlay.classList.add("limit-reach")
+      })
+
+      // Function remove respones on journalClick
+      function removeResponses() {
+        let userJournalResponse = document.querySelector("#textarea").value = "" //remove input from journal entry textarea
+        let currentMoodResponse = document.querySelector(".current-mood-answer").value = ""
+        let newMoodResponse = document.querySelector(".new-mood-response-textarea").value = ""
+        document.querySelectorAll(".emotion-container").forEach(container =>{
+            container.classList.remove("active")
+        })
+        let distortionOpts = document.querySelectorAll(".distortion-option")
+        distortionOpts.forEach(opt =>{
+            opt.classList.remove("active")
+        })
+
+        document.querySelector(".char-limit-bar-overlay").style.width = "0px"
+        document.querySelector(".char-limit-bar-overlay-journal").style.width = "0px"
+        document.querySelector(".char-limit-bar-overlay-moodafter").style.width = "0px"
+      }
+
+      // If user decides not to download app
+      let noDownloadBtn = document.querySelector(".user-no-download")
+      noDownloadBtn.onclick = () =>{
+        document.querySelector(".download-app").classList.remove("active")
+      }
+
+
+      // If user clicks got it thanks {ios modal download display}
+      let gotItBtn = document.querySelector(".downloaded")
+      gotItBtn.onclick = () =>{
+        document.querySelector(".download-app").classList.remove("active")
+      }
+    </script>
+  </body>
+</html>

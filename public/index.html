@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!-- HTML is your website, in its entirety. Everything is included in this tag. -->
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+        name="viewport"
+        content="width=device-width; initial-scale=1.0; user-scalable=no; viewport-fit=cover"
+      />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <!-- possible content values: default, black or black-translucent -->
+      <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent"
+      />
+      <link rel="manifest" href="/journal.webmanifest" />
+      <link rel="stylesheet" href="/style/style.css" />
+      <link rel="apple-touch-icon" sizes = "180x180x" href="/icons/apple-icon-180.png">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2048-2732.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2732-2048.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1668-2388.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2388-1668.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1536-2048.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2048-1536.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1668-2224.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2224-1668.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1620-2160.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2160-1620.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1284-2778.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2778-1284.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1170-2532.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2532-1170.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1125-2436.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2436-1125.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1242-2688.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2688-1242.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-828-1792.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1792-828.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1242-2208.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-2208-1242.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-750-1334.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="/icons/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <meta name="theme-color" content="#fffffe">
+      <script
+        src="https://kit.fontawesome.com/0995f9dee8.js"
+        crossorigin="anonymous"
+      ></script>
+    <title>Thousand Prompts</title>
+
+    <!-- THIS IS CSS, CSS = HTML STYLING -->
+    <style>
+        html{
+            background:var(--background-color)
+        }
+
+        body{
+            width:100vw;
+            height:100vh;
+            background:var(--background-color);
+            position:fixed;
+            top:0;
+            left:0;
+        }
+
+      section.intro {
+        background: var(--background-color);
+        width: 100vw;
+        height: 100vh;
+      }
+      .text-logo{
+        color:var(--headline-color);
+      }
+
+      .header-wrapper{
+          display:flex;
+          justify-content:space-between;
+          align-items:center;
+          width:100%;
+          height:15vh;
+          max-width:1032px;
+          padding:0px 20px;
+          margin-left:auto;
+          margin-right:auto;
+          background:var(--background-color);
+      }
+
+      .header-text-wrapper{
+          position:relative;
+          z-index:9;
+      }
+
+
+      .nav-mobile{
+        color:white;
+      }
+
+      .nav-mobile ul{
+          cursor:pointer;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          list-style-type: none;
+      }
+
+      .nav-mobile ul li{
+          margin:0px 8px;
+          font-size:0.905rem;
+          cursor:pointer;
+      }
+
+      .sign-in-li{
+        background:var(--secondary-button);
+        padding:8px 15px;
+        border-radius:8px;
+        border:1px solid var(--secondary-button);
+      }
+
+      .sign-in-li:hover{
+        background:var(--background-color);
+        color:var(--secondary-button);
+        transition:0.2s ease;
+      }
+
+      .about-li,.contact-li{
+        background:var(--primary-button);
+        padding:8px 15px;
+        border-radius:8px;
+        border:1px solid var(--primary-button);
+        transition:0.2s ease;
+      }
+
+      .about-li:hover,.contact-li:hover{
+          background:var(--background-color);
+          color:var(--primary-button);
+      }
+
+      .nav-icon{
+        margin-right:5px;
+      }
+      .hero-text-container{
+        width:100vw;
+        height:80vh;
+        padding:0px 20px;
+        max-width:1032px;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+      }
+
+      .hero-text-wrapper h1{
+        color:var(--headline-color);
+        font-size:1.205rem;
+        text-align:center;
+      }
+
+      .hero-text-wrapper p{
+          color:var(--headline-color);
+          font-size:2.405rem;
+          font-weight:bold;
+          margin:20px 0px;
+          text-align:center;
+      }
+
+      .hero-button-wrapper{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          flex-direction:column;
+
+          width:100%;
+      }
+
+      button.sign-up{
+          width:300px;
+          padding:10px 10px;
+          font-size:0.905rem;
+          border-radius:8px;
+          border:none;
+          background:var(--secondary-button);
+          color:var(--secondary-button-txt);
+          font-weight:var(--semi-bold-weight);
+          letter-spacing:0.2px;
+          cursor:pointer;
+          transition:filter 0.3s ease;
+          margin:10px 0px 5px 0px;
+      }
+
+      button.sign-up:hover{
+          filter:brightness(1.1)
+      }
+
+      .hero-button-wrapper p{
+          font-size:0.705rem;
+          color:var(--headline-color);
+          font-weight:500;
+          cursor:pointer;
+          opacity:30%;
+      }
+    
+      @media only screen and (max-width: 600px){
+          .mobile-hidden{
+              display:none;
+          }
+
+          .header-wrapper{
+              display:block;
+          }
+
+          .nav-mobile{
+              position:absolute;
+              width:100%;
+              height:9vh;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              top:0;
+              left:0;
+              transition: top 0.4s ease;
+          }
+
+          .nav-mobile.active{
+            transition: top 0.4s ease;
+            top:120px;
+            margin-left:auto;
+            margin-right:auto;
+            left:0;
+          }
+
+          .text-logo{
+              width:100%;
+              height:15vh;
+              display:flex;
+              justify-content:flex-start;
+              align-items:center;
+              position:relative;
+              z-index:9;
+              background:var(--background-color);
+          }
+
+          .hamburger{
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              flex-direction:column;
+              width:35px;
+              height:35px;
+              position:absolute;
+              top:50%;
+              right:15px;
+              transform:translateY(-50%);
+              cursor:pointer;
+              z-index:9;
+          }
+
+
+          .mid.active{
+              width:30px;
+              transition:width 0.2s ease;
+          }
+
+          .first{
+              width:20px;
+              height:4px;
+              border-radius:500px;
+              background:var(--headline-color);
+              color:white;
+              display:block;
+          }
+
+          .mid{
+            width:15px;
+            height:4px;
+            border-radius:500px;
+            background:var(--headline-color);
+            color:white;
+            display:block;
+            margin:4px 3px;
+            margin-left:auto;
+            transition:width 0.1s ease;
+          }
+
+          .last{
+            width:20px;
+            height:4px;
+            border-radius:500px;
+            background:var(--headline-color);
+            color:white;
+            display:block;
+          }
+      }
+    </style>
+    <!-- END OF CSS STYLING -->
+  </head>
+
+  <!-- Body class, all your html code will be written inside here -->
+  <body id = "home-index" class="theme-default">
+      <!-- Code academy will teach you html semantics, learn the semantics are coding in the future will be a lot easier for you. -->
+    <section class="intro">
+        <!-- Header, is the top of the page, in this website its the {Thosands prompts ----- about, contact, sign in} -->
+      <header class="header">
+          <div class="header-wrapper">
+              <div class="header-text-wrapper">
+                  <h1 class="text-logo" style = "cursor:pointer;">
+                    thousandprompts
+                  </h1>
+
+                  <!-- Mobile hamburger, make your website smaller to see it. -->
+                  <div class="hamburger desktop-hidden">
+                      <div class = "hamburger-line first"></div>
+                      <div class = "hamburger-line mid"></div>
+                      <div class = "hamburger-line last"></div>
+                  </div>
+              </div>
+
+              <!-- Navigation, this is where all you're links would be if you decided to make a website with navigation. -->
+            <nav class="nav-mobile">
+                <!-- This is an unordered list, usually you'll see it when creating a navigation, but it could also be used to create a normal dotted list if you'd like. -->
+              <ul class = "nav-ul">
+
+                <!-- List items, this is used to represent a item in a list. It has to contained with the ul element  -->
+                <li class = "about-li" onclick = "takeToAbout()">
+                    <i class="fas fa-question-circle nav-icon"></i>About
+                </li>
+                </li>
+                <li class="sign-in-li" onclick = "takeToSignIn()">
+                    <i class="fas fa-user nav-icon"></i>Sign in
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </header>
+      <!-- END OF HEADER -->
+
+      <!-- Ill explain it the best way I can, but don't be upset if you don't get it, it took me a while to figure this out. Scroll 2 bottom for better explanation-->
+      <div class="hero-text-container">
+          <div class="hero-text-wrapper">
+              <h1>ThousandPrompts</h1>
+              <p>What will you write about today?</p>
+          </div>
+          <div class="hero-button-wrapper">
+              <button class = "sign-up" onclick="takeToJournal();">Take me to my journal.</button>
+          </div>
+      </div>
+    </section>
+    <script type = "module" src = "/dist/bundle.js"></script>
+    <script>
+        let hamburger = document.querySelector(".hamburger"); 
+        let navigation = document.querySelector(".nav-mobile") 
+        hamburger.onclick = () =>{
+            if(navigation.classList.contains("active")){
+                navigation.classList.remove("active")
+                document.querySelector(".mid").classList.remove("active")
+                return;
+            }
+            navigation.classList.add("active")
+            document.querySelector(".mid").classList.add("active")
+        }
+
+        function takeToJournal(){
+          window.location.href = "/journal/journalHome.html"
+        }
+
+        function takeToAbout(){
+          window.location.href = "/journal/about.html"
+        }
+
+        function takeToSignIn(){
+          window.location.href = "/journal/signin.html"
+        }
+    </script>
+  </body>
+</html>
